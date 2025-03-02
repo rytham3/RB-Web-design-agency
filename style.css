@@ -1,0 +1,129 @@
+body{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 125vh;
+
+}
+
+.main {
+    flex: 1;
+  }
+
+
+
+
+h1{
+    font-size: 5rem;
+    margin-bottom: 100px;
+  }
+
+
+
+
+.logo {
+    width: 100px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 15px;
+  }
+
+
+
+span{
+    color: forestgreen;
+    -webkit-text-stroke: 2px black;
+  }
+
+
+
+div.card > img{
+    float: left;
+    height: 100%;
+    width: 250px;
+    margin-right: 40px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 3px solid black;
+  }
+
+
+
+
+.card{
+    display: inline-block;
+    width: 40%;
+    height: 190px;
+}
+
+
+
+.right1, .right2{
+    float: right ;
+}
+
+
+
+
+.left1, .right1{
+    margin-bottom: 50px;
+}
+
+
+
+footer{
+    float: clear;
+    text-align: right;
+    margin-top: 90px;
+    font-size: 20px;
+    color: teal;
+}
+
+
+
+@media (max-width: 680px) {
+
+    body{
+        margin: 50px 50px 50px 50px;
+        display: flex;
+        flex-direction: column;
+        min-height: 300vh;
+    
+    }
+    
+    .main {
+        flex: 1;
+      }
+    
+    .logo{
+        position: relative;
+            left: 140px;
+
+        margin-bottom: 30px;
+    }
+    
+    h1{
+        text-align: center;
+        clear: both;
+        font-size: 65px;
+    }
+
+
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 140px;
+    }
+
+    div.card > img {
+        width: 100%;
+        object-fit: cover;
+        display: inline;
+    }
+
+    .right2{
+        margin-top: 140px;
+    }
+
+
+}
